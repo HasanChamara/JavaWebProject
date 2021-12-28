@@ -1,0 +1,106 @@
+ .imageSlider
+{
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+    background-size: contain;
+    background-image: url('../image/WelcomeImage.png');
+/*    animation-name: slider;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-timing-function:ease-out;*/
+
+} 
+/*
+@keyframes slider
+{
+   0%
+   {
+    background-image: url('../image/WelcomeImage.png');
+   } 
+   25%
+   {
+    background-image: url('../image/BusImage.png');
+   }  
+   50%
+   {
+    background-image: url('../image/WelocmeImage.png');
+   } 
+   75%
+   {
+    background-image: url('../image/BusImage.png');
+   }
+   100%
+   {
+    background-image: url('../image/WelocmeImage.png');
+   } 
+}   */
+
+.loginbox
+{
+    width: 400px;
+    height: 460px;
+    background: #000;
+    color: #fff;
+    position: absolute;
+    top: 18%;
+    left: 8%;
+    transform: translate(-10%, -10%);
+    box-sizing: border-box;
+    padding: 40px 20px;
+}
+
+.User
+{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    position: absolute;
+    top: -50px;
+    left: calc(50% - 50px);
+}
+
+h1{
+    margin-top: 20px;
+    padding: 0 0 20px;
+    text-align: center;
+    font-size: 22px;
+    margin-bottom: 20px;
+}
+
+.loginbox p {
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+    margin-top: 15px;
+}
+.loginbox input {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.loginbox input[type ="text"], input[type ="password"]{
+    border: none;
+    margin-top: 20px;
+    border-bottom: 1px solid #fff;
+    background: transparent;
+    outline: none;
+    height: 40px;
+    color: #fff;
+    font-size: 16px;
+}
+.loginbox input[type ="submit"]{
+    border: none;
+    background: #fb2525;
+    outline: none;
+    height: 40px;
+    color: #fff;
+    font-size: 18px;
+    border-radius: 20px;
+    width: 70%;
+}
+.loginbox input[type ="submit"]:hover{
+    cursor: pointer;
+    background: #ffc107;
+    color: #fff;
+}
